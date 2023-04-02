@@ -1,17 +1,16 @@
-# Om prosjektet
-
-Dette prosjektet er laget til Jane for at hun skal ha en web side for å kunne ta imot sine kunder.
+# The project 
+This project is made for a admin that wants a wed-site that can be used for registration of customers. The web-site also contains information of what the admin is offering and information about the admin itself.  
 
 
 ## Features
 
-Prosjektet har følgende features:
+The project has the following features:
 
 - A user login and registration system.
 - A dashboard for managing user profiles and preferences.
 - An API for interacting with external services.
 
-## Kontakt
+## Contact
 
-Har du spørsmål eller tilbakemeldinger, send e-post til thakje8@gmail.com.
+thakje8@gmail.com.
 
