@@ -1,12 +1,20 @@
 {
   "name": "jordmorjaneprosjekt",
   "version": "1.0.0",
-  "description": "",
+  "description": "A program you can use to register for a course ",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Thomas Jensen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasJen/Prosjekt-Jordmor-WebSite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThomasJen/Prosjekt-Jordmor-WebSite/issues"
+  },
+  "homepage": "https://github.com/ThomasJen/Prosjekt-Jordmor-WebSite#readme"
 }
