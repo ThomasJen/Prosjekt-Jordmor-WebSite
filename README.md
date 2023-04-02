@@ -12,5 +12,5 @@ The project has the following features:
 
 ## Contact
 
-thakje8@gmail.com.
+thakje8@gmail.com
 
