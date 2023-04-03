@@ -25,7 +25,7 @@ form.addEventListener('submit', function(e) {
     user: 'thomasjen286@gmail.com', // your email address
     pass: 'Shoterman28' // your email password
     }
-    });
+});
 
   // construct the message with the confirmation email
   const message = `Dear ${name},\n\nThank you for registering with us! We have received your registration request with the following details:\n\nName: ${name}\nPhoneNumber: ${phoneNumber}\nEmail: ${email}\n\nWe will process your registration request and get back to you soon with further instructions.\n\nBest regards,\nYour registration team`;
@@ -46,7 +46,6 @@ form.addEventListener('submit', function(e) {
     }
   });
           
-
   registrations.push(registration);
   localStorage.setItem('registrations', JSON.stringify(registrations));
   alert('Registrering vellykket');
