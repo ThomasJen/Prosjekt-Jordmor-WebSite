@@ -1,5 +1,5 @@
 # The project 
-This project is made for a admin that wants a wed-site that can be used for registration of customers. The web-site also contains information of what the admin is offering and information about the admin itself.  
+This project is made for a admin that wants a web-site that can be used for registration of customers. The web-site also contains information of what the admin is offering and information about the admin itself.  
 
 
 ## Features
