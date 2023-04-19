@@ -6,16 +6,29 @@
     <link rel="stylesheet" href="paamelding.css">
   </head>
   <body>
-    <h1>Påmelding</h1>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name"><br><br>
-      <label for="phoneNumber">Telefon:</label>
-      <input type="phoneNumber" id="phoneNumber" name="phoneNumber"><br><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br><br>
-      <button type="submit">Register</button>
-    </form>
+    <header>
+      <div id ="header">
+        <h1>Påmelding</h1>
+      </div>
+    </header>
+    <main>
+    <div id = "main">
+      <p>Her kan du fylle ut skjema for påmelding til kurs.</p>
+      <div id = "schema">
+      <form>
+       <label for="firstname">Fornavn:</label>
+        <input type="text" id="firstname" name="name"><br><br>
+        <label for = "lastname">Etternavn</label>
+        <input type="text" id="lastname" name="name"><br><br>
+        <label for="phoneNumber">Telefon:</label>
+        <input type="phoneNumber" id="phoneNumber" name="phoneNumber"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="submit">Register</button>
+      </form>
+      </div>
+    </div>
     <script src = "Registrering.js"></script>
+    </main>
   </body>
 </html>
