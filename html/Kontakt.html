@@ -3,7 +3,7 @@
     <head>
         <meta charset ="UTF-8">
         <title>Kontakt</title>
-        <link rel = "stylesheet" href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/css/forside.css">
+        <link rel = "stylesheet" href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/css/kontakt.css">
     </head>
     <body>
         <div id = "body_background">
@@ -13,9 +13,24 @@
             </div>
         </header>
         <main>
-            <div id = "main">
-                <p>Her vil det komme informasjon om hva du tilbyr, kontaktinformasjon og andre relevante opplysninger.</p></br><br>
+           <div id = "main">
+                <h3>Her vil det komme informasjon om hva du tilbyr, kontaktinformasjon og andre relevante opplysninger.</h3></br><br>
+                <div id="input">
+                <form>
+                    <label for="name">Navn:</label>
+                    <input type="text" id="name" name="name"></br>
+                  
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"></br>
+                  
+                    <label for="message">Spørsmål:</label>
+                    <textarea id="message" name="message"></textarea></br>
+                  
+                    <input type="submit" value="Send">
+                  </form>
+                </div>
             </div>
+
             <div id = "meny">
                 <div class = "button-container">
                 <a href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/html/Paamelding.html" class = "button">Påmelding</a>
@@ -26,13 +41,15 @@
                 </div>
             </div>
         </main>
+
         <footer>
             <div id = "footer">
                     <p>Har du spørsmål?</p>
-                    <p>Tlf:</p>
-                    <p>Email:</p>
+                    <p>Tlf: 123 45 678</p>
+                    <p>Email: test@test.com</p>
             </div>
         </footer>
+
         </div>
     </body>
 </html>
