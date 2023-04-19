@@ -22,8 +22,8 @@ form.addEventListener('submit', function(e) {
     port: 465,
     secure: false, // true for 465, false for other ports
     auth: {
-    user: 'thomasjen286@gmail.com', // your email address
-    pass: 'Shoterman28' // your email password
+    user: '', // your email address
+    pass: '' // your email password
     }
 });
 
