@@ -11,8 +11,25 @@
     height: 100%;
 }
 
+#main {
+    text-align: center;
+}
+
+#input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: absolute;
+    top: 100px; 
+    left: 45%; 
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 #meny { 
-    margin-top: 25%;
+    margin-top: 20%;
 }   
 .button-container {
     display: flex;
@@ -37,4 +54,5 @@
 #footer {
     background-color: #6a753f;
     text-align: center;
+    
 }
