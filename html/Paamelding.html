@@ -14,19 +14,10 @@
     </header>
 
     <main>
-      <h3>For påmelding vennligst fyll ut skjema og vent på bekreftelse på mail.</h3>
-      <div id = "schema">
-        <form>
-          <input type="text" placeholder="Fornavn" name="name" style="height: 20px;"><br><br>
-          <input type="text" placeholder="Etternavn" name="name" style="height: 20px;"><br><br>
-          <input type="phoneNumber" placeholder="Telefon" name="phoneNumber" style="height: 20px;"><br><br>
-          <input type="email" placeholder="Email" name="email" style="height: 20px;"><br><br>
-          <button type="submit">Register</button>
-        </form>
-      </div>
 
       <div id = "meny">
         <div class = "button-container">
+          <a href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/html/Forside.html" class = "button">Forside</a>
           <a href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/html/Paamelding.html" class = "button">Påmelding</a>
           <a href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/html/Info.html" class = "button">Info</a>
           <a href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/html/Tilbud.html" class = "button">Tilbud</a>
@@ -34,6 +25,30 @@
           <a href = "C:/Users/Thomas/OneDrive/Documents/GitHub/Prosjekt-Jordmor-WebSite/html/Priser.html" class = "button">Priser</a>
         </div>
       </div>
+
+      <h3>For påmelding vennligst fyll ut skjema og vent på bekreftelse på mail.</h3>
+      <div id = "schema">
+        <form method="post" action="php/bekreftmail.php">
+          <input type="text" placeholder="Fornavn" name="name" style="height: 20px;"><br><br>
+          <input type="text" placeholder="Etternavn" name="name" style="height: 20px;"><br><br>
+          <input type="phoneNumber" placeholder="Telefon" name="phoneNumber" style="height: 20px;"><br><br>
+          <input type="email" placeholder="Email" name="email" style="height: 20px;"><br>
+          <p>Velg tjeneste fra listen:</p>
+          <select id="course" name="course">
+            <option value="" selected disabled>Velg fra listen</option>
+            <option value="engangsKontroll">1gangs kontroll inkl henvisning rutineultralyd</option>
+            <option value="svangerskapsKontroll">Svangerskapskontroll</option>
+            <option value="fodselsangstsamtale">Fødselsangstsamtale</option>
+            <option value="ettersamtale">Ettersamtale etter fødsel</option>
+            <option value="videokonsultasjon">Videokonsultasjon</option>
+            <option value="tlfsamtale">Tlf samtale/råd kveld, helg</option>
+            <option value="ekstrakontroll">Ekstra kontroll kun BT/urin, tøying av mormunn</option>
+            <option value="fodselsforberedende">Praktisk fødselsforberedende kurs m/partner</option>
+          </select><br><br>
+          <button type="submit">Registrer</button>
+        </form>
+      </div>
+
 
     <script src = "Registrering.js"></script>
     </main>

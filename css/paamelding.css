@@ -10,39 +10,9 @@
     width: 100%;
     height: 100%;
 }
- main h3{
-    text-align: center;
- }
-
-#schema {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 50px;
-    position: absolute;
-    top: 100px; 
-    left: 45%; 
-    font-size: 20px;
-    
-}
-
-input::placeholder {
-    font-family: "Times New Roman", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: #999;
-
-}
-
-button {
-    font-family: "Times New Roman", sans-serif;
-    font-size: 15px;
-    padding: 5px 10px;
-}
 
 #meny { 
-    margin-top: 20%;
+    margin-top: 3%;
 }   
 .button-container {
     display: flex;
@@ -63,8 +33,40 @@ button {
 .button:hover {
     background-color: #555;
 }
+
+ main h3 {
+    margin-top: 50px;
+    text-align: center;
+ }
+
+#schema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: absolute;
+    top: 100px; 
+    left: 45%; 
+    font-size: 20px;
+    
+}
+
+input::placeholder {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999;
+}
+
+button {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
 #footer {
     background-color: #6a753f;
     text-align: center;
-    margin-top: 17%;
+    margin-top: 33.24%;
 }
