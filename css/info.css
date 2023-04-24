@@ -1,9 +1,9 @@
 #body_background{
-    background-color: #a6af82;
+    background-color: #909290;
 }
 
 #header { 
-    background-color: #6a753f;
+    background-color: #5a5a58;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,18 +24,18 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #5e315e;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
       
 .button:hover {
-    background-color: #555;
+    background-color: #695266;
 }
 
 #main {
-    margin-top: 2%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@
 
    
 #footer {
-    background-color: #6a753f;
+    background-color: #5a5a58;
     text-align: center;
-    margin-top: 15.3%;
+    margin-top: 14.3%;
 }
