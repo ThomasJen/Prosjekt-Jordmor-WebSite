@@ -34,7 +34,7 @@
     background-color: #695266;
 }
 
- main h3 {
+ main h4 {
     margin-top: 50px;
     text-align: center;
  }
@@ -52,6 +52,10 @@
     
 }
 
+#schema p {
+    font-size: 18px;
+}
+
 input::placeholder {
     font-family: "Times New Roman", sans-serif;
     font-size: 15px;
@@ -60,13 +64,19 @@ input::placeholder {
 }
 
 button {
+    display: inline-block;
     font-family: "Times New Roman", sans-serif;
     font-size: 15px;
     padding: 5px 10px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #c4c1c1;
 }
 
 #footer {
     background-color: #5a5a58;
     text-align: center;
-    margin-top: 33.24%;
+    margin-top: 33.45%;
 }

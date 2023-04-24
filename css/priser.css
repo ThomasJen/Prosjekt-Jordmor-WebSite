@@ -34,14 +34,9 @@
     background-color: #695266;
 }
 
-#main {
-    text-align: center;
-    margin-top: 50px;
-}
-
 table {
     border: 2px solid black;;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
 td {
@@ -54,11 +49,12 @@ th, td {
 }
 
 h4 {
+    margin-top: 50px;
     text-align: center;
 }
 
 #footer {
     background-color: #5a5a58;
     text-align: center;
-    margin-top: 5.97%;
+    margin-top: 7.37%;
 }
