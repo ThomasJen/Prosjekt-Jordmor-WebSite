@@ -6,10 +6,22 @@
     background-color: #5a5a58;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
     border-bottom: 2px solid black;
+}
+
+.textlogo {
+    left: 60%;
+    max-width: 200px;
+    transform: rotate(-17deg);
+}
+
+h1 {
+    text-align: center;
+    margin-right: 11%;
+    flex-grow: 1;
 }
 
 #meny {
@@ -40,7 +52,7 @@
     text-align: center;
 }
 
-img {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +64,7 @@ img {
     border-top: 2px solid black;
     background-color: #5a5a58;
     text-align: center;
-    margin-top: 7.75%;
+    margin-top: 6.3%;
 }
 
 
