@@ -9,6 +9,7 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+    border-bottom: 2px solid black;
 }
 
 #meny { 
@@ -24,14 +25,14 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #5e315e;
+    background-color: #8d3b8d;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
       
 .button:hover {
-    background-color: #695266;
+    background-color: #7c3272;
 }
 
 #main {
@@ -40,6 +41,7 @@
 }
 
 #list {
+    margin-top: -1%;
     display: flex;
     justify-content: center;
     margin-left: 5%;
@@ -48,9 +50,18 @@
     align-items: center;
 }
 
-   
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border: 1px solid #6a753f;
+    max-width: 300px;
+}
+ 
 #footer {
+    border-top: 2px solid black;
     background-color: #5a5a58;
     text-align: center;
-    margin-top: 13.57%;
+    margin-top: 3.7%;
 }

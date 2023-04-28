@@ -9,6 +9,7 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+    border-bottom: 2px solid black;
 }
 
 #meny { 
@@ -24,14 +25,14 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #5e315e;
+    background-color: #8d3b8d;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
       
 .button:hover {
-    background-color: #695266;
+    background-color: #7c3272;
 }
 
  main h4 {
@@ -49,7 +50,6 @@
     top: 100px; 
     left: 45%; 
     font-size: 20px;
-    
 }
 
 #schema p {
@@ -73,10 +73,12 @@ button {
 
 button:hover {
     background-color: #c4c1c1;
+    cursor: pointer;
 }
 
 #footer {
+    border-top: 2px solid black;
     background-color: #5a5a58;
     text-align: center;
-    margin-top: 33.45%;
+    margin-top: 32.4%;
 }

@@ -9,9 +9,10 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+    border-bottom: 2px solid black;
 }
 
-#meny { 
+#meny {
     margin-top: 3%;
 }   
 .button-container {
@@ -24,14 +25,14 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #5e315e;
+    background-color: #8d3b8d;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
       
 .button:hover {
-    background-color: #695266;
+    background-color: #7c3272;
 }
    
 #main {
@@ -48,9 +49,10 @@ img {
 }
 
 #footer {
+    border-top: 2px solid black;
     background-color: #5a5a58;
     text-align: center;
-    margin-top: 8.8%;
+    margin-top: 7.75%;
 }
 
 
