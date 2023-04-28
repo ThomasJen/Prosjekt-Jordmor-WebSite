@@ -6,15 +6,28 @@
     background-color: #5a5a58;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
     border-bottom: 2px solid black;
 }
 
+.textlogo {
+    left: 60%;
+    max-width: 200px;
+    transform: rotate(-17deg);
+}
+
+h1 {
+    text-align: center;
+    margin-right: 11%;
+    flex-grow: 1;
+}
+
 #meny { 
     margin-top: 3%;
-}   
+}
+
 .button-container {
     display: flex;
     justify-content:space-between;
@@ -58,5 +71,5 @@ h4 {
     border-top: 2px solid black;
     background-color: #5a5a58;
     text-align: center;
-    margin-top: 6.35%;
+    margin-top: 4.9%;
 }
